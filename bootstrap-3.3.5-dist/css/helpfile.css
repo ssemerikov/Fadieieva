@@ -1,0 +1,70 @@
+/*
+ * Column definitions for multi-col nav menu
+ */
+@media screen and (max-width: 768px){
+    .columns{
+        height: 200px;
+        overflow-y:scroll;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px){
+    .columns{
+        -moz-column-count:3; /* Firefox */
+        -webkit-column-count:3; /* Safari and Chrome */
+        column-count:3;
+        width: 600px;
+        overflow-y:scroll;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+    .columns{
+        -moz-column-count:4; /* Firefox */
+        -webkit-column-count:4; /* Safari and Chrome */
+        column-count:4;
+        width: 800px;
+        overflow-y:scroll;
+    }
+}
+
+/*
+ * Index column definitions
+ */
+@media screen and (max-width: 479px){
+    .topic-index{
+        -moz-column-count:2; /* Firefox */
+        -webkit-column-count:2; /* Safari and Chrome */
+        column-count:2;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 991px){
+    .topic-index{
+        -moz-column-count:3; /* Firefox */
+        -webkit-column-count:3; /* Safari and Chrome */
+        column-count:3;
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1369px){
+    .topic-index{
+        -moz-column-count:4; /* Firefox */
+        -webkit-column-count:4; /* Safari and Chrome */
+        column-count:4;
+    }
+}
+
+@media screen and (min-width: 1370px){
+    .topic-index{
+        -moz-column-count:5; /* Firefox */
+        -webkit-column-count:5; /* Safari and Chrome */
+        column-count:5;
+    }
+}
+
+.help-panel {
+    padding-top: 50px;
+}
